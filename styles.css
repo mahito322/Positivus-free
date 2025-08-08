@@ -122,7 +122,6 @@ header {
 .header__top_button:hover {
     background-color: black;
     color: white;
-    transition: .3s;
     cursor: pointer;
 }
 .header__block {
@@ -168,6 +167,7 @@ header {
 }
 .companies {
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 .companies img {
     transition: .3s ease;
@@ -178,5 +178,103 @@ header {
 .companies img:hover {
     transform: scale(1.08);
     filter: grayscale(0%);
+}
+.services {
+    padding-top: 70px;
+}
+.services__title {
+    display: flex;
+    width: 798px;
+    gap: 40px;
+}
+.services__title p {
+    font-size: 18px;
+    font-family: 'Space Grotesk';
+}
+.services__title h2 {
+    font-size: 40px;
+    font-family: 'Space Grotesk';
+    background-color: var(--main-color-green);
+    padding: 0 7px;
+}
+.services__cards {
+    margin-top: 80px;
+    column-count: 2;
+    gap: 40px;
+}
+.services__card {
+    border: 1px solid black;
+    width: 600px;
+    border-radius: 45px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.services__card:nth-child(1) {
+    background-color: var(--main-color-white);
+}
+.services__card:nth-child(2) {
+    background-color: var(--main-color-black);
+}
+.services__card:nth-child(3) {
+    background-color: var(--main-color-green);
+}
+.services__card:nth-child(4) {
+    background-color: var(--main-color-green);
+}
+.services__card:nth-child(5) {
+    background-color: var(--main-color-white);
+}
+.services__card:nth-child(6) {
+    background-color: var(--main-color-black);
+}
+.services__card_title {
+    font-size: 30px;
+    font-family: 'Space Grotesk';
+    background-color: var(--main-color-green);
+}
+.services__card_more {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 93px;
+    font-size: 20px;
+    font-family: 'Space Grotesk';
+    text-decoration: none;
+    color: black;
+}
+.services__text_second p {
+    display: inline-block;
+    padding: 0 7px;
+    background-color: white;
+    font-family: 'Space Grotesk';
+    border-radius: 7px;
+    font-size: 30px;
+}
+.services__text_second {
+    width: 220px;
+}
+.services__text_first p{
+    background-color: var(--main-color-green);
+    display: inline-block;
+    padding: 0 7px;
+    font-family: 'Space Grotesk';
+    border-radius: 7px;
+    font-size: 30px;
+}
+.services__text_first {
+    width: 230px;
+}
+.services__more {
+    color: white;
+}
 
+.services__card:hover {
+    box-shadow: 0 10px 10px black;
+    transform: translateY(-10px);
 }
