@@ -314,9 +314,15 @@ header {
     font-family: 'Space Grotesk';
     margin-top: 46px;
     font-size: 20px;
+    transition: .3s ease;
+}
+.promo__left a:hover {
+    transform: scale(1.03);
+    cursor: pointer;
 }
 .case {
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 .case__title {
     display: flex;
@@ -348,6 +354,10 @@ header {
 .case__card {
     width: 286px;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 186px;
 }
 .case__card:nth-child(2) {
     position: relative;
@@ -375,12 +385,4 @@ header {
     display: flex;
     align-items: center;
     color: var(--main-color-green);
-    margin-top: 40px;
-}
-.case__card:nth-child(3) a{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    color: var(--main-color-green);
-    margin-top: 17px;
 }
