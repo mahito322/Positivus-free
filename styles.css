@@ -14,7 +14,7 @@
 }
 .container {
     padding: 0 20px;
-    max-width: 1240px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 header {
@@ -385,4 +385,55 @@ header {
     display: flex;
     align-items: center;
     color: var(--main-color-green);
+}
+.process__title {
+    display: flex;
+    align-items: center;
+    font-family: 'Space Grotesk';
+    gap: 40px;
+}
+.process__title h2{
+    background-color: var(--main-color-green);
+    padding: 0 7px;
+    font-size: 40px;
+}
+.process__title p {
+    font-size: 18px;
+    width: 292px;
+}
+.process__cards {
+    margin-top: 80px;
+}
+.process__card {
+    background-color: var(--main-color-green);
+    padding: 41px 60px;
+    border-radius: 45px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+
+}
+.process__card_title {
+    display: flex;
+    align-items: center;
+    font-family: "Space Grotesk";
+    gap: 25px;
+}
+.process__card_title p {
+    font-size: 60px;
+}
+.process__card_title h3 {
+    font-size: 30px;
+}
+.process__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+.process__description {
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    margin-top: 30px;
+    width: 1059px;
 }
