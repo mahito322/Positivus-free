@@ -405,18 +405,19 @@ header {
     margin-top: 80px;
 }
 .process__card {
-    background-color: var(--main-color-green);
+    background-color: var(--main-color-white);
     padding: 41px 60px;
     border-radius: 45px;
     margin-bottom: 30px;
     border: 1px solid black;
-
+    transition: .3s ease;
 }
 .process__card_title {
     display: flex;
     align-items: center;
     font-family: "Space Grotesk";
     gap: 25px;
+
 }
 .process__card_title p {
     font-size: 60px;
@@ -428,12 +429,36 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-    padding-bottom: 30px;
+
 }
 .process__description {
     font-family: 'Space Grotesk';
     font-size: 18px;
-    margin-top: 30px;
     width: 1059px;
+    display: none;
+    border-top: 1px solid black;
+    padding-top: 30px;
 }
+.process__card:hover {
+    background-color: var(--main-color-green);
+    box-shadow: 0 10px 10px black;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.process__card:hover > .process__description {
+    display: flex;
+}
+.process__card:hover > .process__block {
+    margin-bottom: 30px;
+}
+.process__minus  {
+    display: none;
+}
+.process__card:hover .process__plus {
+    display: none;
+}
+.process__card:hover .process__minus {
+    display: inline-block;
+}
+
+
