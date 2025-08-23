@@ -700,3 +700,230 @@ header {
     position: relative;
     margin-bottom: 68px;
 }
+.contact {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.contact__title {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+.contact__title h2 {
+    display: inline-block;
+    font-family: 'Space Grotesk';
+    background-color: var(--main-color-green);
+    font-size: 40px;
+    padding: 0 7px;
+    border-radius: 7px;
+
+}
+.contact__title p {
+    width: 313px;
+    font-family: 'Space Grotesk';
+}
+.contact__block {
+    background-color: var(--main-color-white);
+    border-radius: 45px;
+    padding: 60px 0 80px 100px;
+    display: flex;
+    position: relative;
+}
+form {
+    width: 556px;
+}
+.input__name {
+    font-family: 'Space Grotesk';
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 14px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+.label__name {
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+}
+.input__email {
+    font-family: 'Space Grotesk';
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 14px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+.label__email {
+    font-family: 'Space Grotesk';
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.label__message {
+    font-family: 'Space Grotesk';
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+textarea {
+    font-family: 'Space Grotesk';
+    border-radius: 14px;
+    padding: 18px 0 0 30px;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 18px;
+    resize: none;
+}
+.contact__img {
+    position: absolute;
+    right: -324px;
+}
+button {
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 14px;
+    background-color: var(--main-color-black);
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+}
+.label__radio {
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 35px;
+}
+.input__radio {
+    accent-color: var(--main-color-green);
+    margin-bottom: 40px;
+    appearance: none;
+    margin-right: 14px;
+}
+.input__radio::before {
+    content: '';
+    display: flex;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 6px;
+    background-clip: content-box;
+    box-sizing: border-box;
+}
+.input__radio:checked::before {
+    background-color: var(--main-color-green);
+}
+footer{
+    padding-top: 70px;
+}
+.footer__block {
+    background-color: var(--main-color-black);
+    border-radius: 45px 45px 0 0;
+    padding: 60px 55px;
+}
+.footer__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+
+}
+.footer__list a {
+    font-family: 'Space Grotesk';
+    color: white;
+    font-size: 18px;
+}
+.footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer__contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 66px;
+    border-bottom: 1px solid white;
+    padding-bottom: 51px;
+}
+.footer__contacts h2 {
+    font-family: 'Space Grotesk';
+    background-color: var(--main-color-green);
+    padding: 0 7px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-bottom: 27px;
+}
+.footer__email {
+    color: white;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer__phone {
+    color: white;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer__address {
+    color: white;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 332px;
+}
+.footer__subscribe {
+    background-color: #292A32;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    padding: 58px 40px;
+    gap: 20px;
+}
+.footer__subscribe input {
+    font-family: 'Space Grotesk';
+    border: 1px solid white;
+    background-color: #292A32;
+    padding: 22px 35px;
+    border-radius: 14px;
+    font-size: 18px;
+    color: white;
+}
+.footer__subscribe input::placeholder {
+    color: white;
+}
+.footer__subscribe button {
+    cursor: pointer;
+    background-color: var(--main-color-green);
+    color: black;
+    font-family: 'Space Grotesk';
+    padding: 20px 35px;
+    margin: 0;
+    border: none;
+}
+.footer__bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 40px;
+}
+.footer__bottom p {
+    font-family: 'Space Grotesk';
+    color: white;
+    font-size: 18px;
+}
+.footer__bottom a {
+    color: white;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+}
