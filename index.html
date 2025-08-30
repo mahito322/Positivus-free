@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -14,21 +15,21 @@
                 <div class="header__block">
                     <ul class="header__menu">
                         <li><a class="header__a active" href="#">About us</a></li>
-                        <li><a class="header__a2" href="#">Services</a></li>
-                        <li><a class="header__a3" href="#">Use Cases</a></li>
-                        <li><a class="header__a4" href="#">Pricing</a></li>
-                        <li><a class="header__a5" href="#">Blog</a></li>
+                        <li><a class="header__a2" href="#services">Services</a></li>
+                        <li><a class="header__a3" href="#case">Use Cases</a></li>
+                        <li><a class="header__a4" href="#process">Pricing</a></li>
+                        <li><a class="header__a5" href="#team">Blog</a></li>
                     </ul>
-                    <div><a class="header__top_button" href="#">Request a quote</a></div>
+                    <div><a class="btn btn__transparent" href="#contact">Request a quote</a></div>
                 </div>
             </div>
             <div class="header__bottom">
-                <div class="header__title">
-                    <h1>Navigating the digital landscape for success</h1>
-                    <p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
-                    <a href="#">Book a consultation</a>
+                <div class="header__text">
+                    <h1 class="header__title">Navigating the digital landscape for success</h1>
+                    <p class="header__description">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+                    <a class="header__button btn" href="#">Book a consultation</a>
                 </div>
-                <div>
+                <div class="header__img">
                     <img src="./src/images/Illustration.svg" alt="">
                 </div>
             </div>
@@ -45,16 +46,16 @@
                 <div><a href="https://www.zoom.com/"><img src="./src/images/Company_logo5.svg" alt=""></a></div>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
             <div class="container">
-                <div class="services__title">
-                    <h2>Services</h2>
-                    <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+                <div class="services__text">
+                    <h2 class="main__title">Services</h2>
+                    <p class="services__subtitle">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
                 </div>
                 <div class="services__cards">
                     <a href="#" class="services__card">
                         <div class="services__block">
-                            <div class="services__text_first">
+                            <div class="services__card-text services__text_bg_green">
                                 <p>Search engine</p>
                                 <p>optimization</p>
                             </div>
@@ -67,7 +68,7 @@
                     </a>
                     <a href="#" class="services__card">
                         <div class="services__block">
-                            <div class="services__text_second">
+                            <div class="services__card-text services__text_bg_white">
                                 <p>Social Media</p>
                                 <p>Marketing</p>
                             </div>
@@ -80,7 +81,7 @@
                     </a>
                     <a href="#" class="services__card">
                         <div class="services__block">
-                            <div class="services__text_second">
+                            <div class="services__card-text services__text_bg_white">
                                 <p>Content</p>
                                 <p>Creation</p>
                             </div>
@@ -93,7 +94,7 @@
                     </a>
                     <a href="#" class="services__card">
                         <div class="services__block">
-                            <div class="services__text_second">
+                            <div class="services__card-text services__text_bg_white">
                                 <p>Pay-per-click</p>
                                 <p>advertising</p>
                             </div>
@@ -106,7 +107,7 @@
                     </a>
                     <a href="#" class="services__card">
                         <div class="services__block">
-                            <div class="services__text_first">
+                            <div class="services__card-text services__text_bg_green">
                                 <p>Email</p>
                                 <p>Marketing</p>
                             </div>
@@ -119,7 +120,7 @@
                     </a>
                     <a href="#" class="services__card">
                         <div class="services__block">
-                            <div class="services__text_first">
+                            <div class="services__card-text services__text_bg_green">
                                 <p>Analytics and </p>
                                 <p>Tracking</p>
                             </div>
@@ -139,17 +140,17 @@
                     <div class="promo__left">
                         <h2>Let’s make things happen</h2>
                         <p>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
-                        <a href="#">Get your free proposal</a>
+                        <a class="btn" href="#">Get your free proposal</a>
                     </div>
                     <div class="promo__right"><img src="./src/images/promo_img.svg" alt=""></div>
                 </div>
             </div>
         </section>
-        <section class="case">
+        <section class="case" id="case">
             <div class="container">
-                <div class="case__title">
-                    <h2>Case Studies</h2>
-                    <p>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
+                <div class="case__text">
+                    <h2 class="main__title">Case Studies</h2>
+                    <p class="case__subtitle">Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
                 </div>
                 <div class="case__cards">
                     <div class="case__card">
@@ -176,11 +177,11 @@
                 </div>
             </div>
         </section>
-        <section class="process">
+        <section class="process" id="process">
             <div class="container">
-                <div class="process__title">
-                    <h2>Our Working Process </h2>
-                    <p>Step-by-Step Guide to Achieving Your Business Goals</p>
+                <div class="process__text">
+                    <h2 class="main__title">Our Working Process </h2>
+                    <p class="process__subtitle">Step-by-Step Guide to Achieving Your Business Goals</p>
                 </div>
                 <div class="process__cards">
                     <div class="process__card">
@@ -189,8 +190,10 @@
                                 <p>01</p>
                                 <h3>Consultation</h3>
                             </div>
-                            <img class="process__plus" src="./src/images/process_plus.svg" alt="">
-                            <img class="process__minus" src="./src/images/process_minus.svg" alt="">
+                            <div class="process__symbol">
+                                <img class="process__plus" src="./src/images/process_plus.svg" alt="">
+                                <img class="process__minus" src="./src/images/process_minus.svg" alt="">
+                            </div>
                         </div>
                         <div class="process__description">
                             <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
@@ -202,8 +205,10 @@
                                 <p>02</p>
                                 <h3>Research and Strategy Development</h3>
                             </div>
-                            <img class="process__plus" src="./src/images/process_plus.svg" alt="">
-                            <img class="process__minus" src="./src/images/process_minus.svg" alt="">
+                            <div class="process__symbol">
+                                <img class="process__plus" src="./src/images/process_plus.svg" alt="">
+                                <img class="process__minus" src="./src/images/process_minus.svg" alt="">
+                            </div>
                         </div>
                         <div class="process__description">
                             <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
@@ -215,8 +220,10 @@
                                 <p>03</p>
                                 <h3>Implementation</h3>
                             </div>
-                            <img class="process__plus" src="./src/images/process_plus.svg" alt="">
-                            <img class="process__minus" src="./src/images/process_minus.svg" alt="">
+                            <div class="process__symbol">
+                                <img class="process__plus" src="./src/images/process_plus.svg" alt="">
+                                <img class="process__minus" src="./src/images/process_minus.svg" alt="">
+                            </div>
                         </div>
                         <div class="process__description">
                             <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
@@ -228,8 +235,10 @@
                                 <p>04</p>
                                 <h3>Monitoring and Optimization</h3>
                             </div>
-                            <img class="process__plus" src="./src/images/process_plus.svg" alt="">
-                            <img class="process__minus" src="./src/images/process_minus.svg" alt="">
+                            <div class="process__symbol">
+                                <img class="process__plus" src="./src/images/process_plus.svg" alt="">
+                                <img class="process__minus" src="./src/images/process_minus.svg" alt="">
+                            </div>
                         </div>
                         <div class="process__description">
                             <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
@@ -241,8 +250,10 @@
                                 <p>05</p>
                                 <h3>Reporting and Communication</h3>
                             </div>
-                            <img class="process__plus" src="./src/images/process_plus.svg" alt="">
-                            <img class="process__minus" src="./src/images/process_minus.svg" alt="">
+                            <div class="process__symbol">
+                                <img class="process__plus" src="./src/images/process_plus.svg" alt="">
+                                <img class="process__minus" src="./src/images/process_minus.svg" alt="">
+                            </div>
                         </div>
                         <div class="process__description">
                             <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
@@ -254,8 +265,10 @@
                                 <p>06</p>
                                 <h3>Continual Improvement</h3>
                             </div>
-                            <img class="process__plus" src="./src/images/process_plus.svg" alt="">
-                            <img class="process__minus" src="./src/images/process_minus.svg" alt="">
+                            <div class="process__symbol">
+                                <img class="process__plus" src="./src/images/process_plus.svg" alt="">
+                                <img class="process__minus" src="./src/images/process_minus.svg" alt="">
+                            </div>
                         </div>
                         <div class="process__description">
                             <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
@@ -264,18 +277,19 @@
                 </div>
             </div>
         </section>
-        <section class="team">
+        <section class="team" id="team">
             <div class="container">
-                <div class="team__title">
-                    <h2>Team</h2>
-                    <p>Meet the skilled and experienced team behind our successful digital marketing strategies</p>
+                <div class="team__text">
+                    <h2 class="main__title">Team</h2>
+                    <p class="team__subtitle">Meet the skilled and experienced team behind our successful digital marketing strategies</p>
                 </div>
                 <div class="team__cards">
                     <div class="team__card">
                         <div class="team__block">
                             <img src="./src/images/team_img.png" alt="">
                             <div class="team__info">
-                                <p><span>John Smith</span> CEO and Founder</p>
+                                <p class="team__name">John Smith</p>
+                                <p class="team__post">CEO and Founder</p>
                             </div>
                         </div>
                         <div class="team__description">
@@ -286,7 +300,8 @@
                         <div class="team__block">
                             <img src="./src/images/team_img2.png" alt="">
                             <div class="team__info">
-                                <p><span>John Smith</span> CEO and Founder</p>
+                                <p class="team__name">Jane Doe</p>
+                                <p class="team__post">Director of Operations</p>
                             </div>
                         </div>
                         <div class="team__description">
@@ -297,7 +312,8 @@
                         <div class="team__block">
                             <img src="./src/images/team_img3.png" alt="">
                             <div class="team__info">
-                                <p><span>John Smith</span> CEO and Founder</p>
+                                <p class="team__name">Michael Brown</p>
+                                <p class="team__post">Senior SEO Specialist</p>
                             </div>
                         </div>
                         <div class="team__description">
@@ -308,7 +324,8 @@
                         <div class="team__block">
                             <img src="./src/images/team_img4.png" alt="">
                             <div class="team__info">
-                                <p><span>John Smith</span> CEO and Founder</p>
+                                <p class="team__name">Emily Johnson</p>
+                                <p class="team__post">PPC Manager</p>
                             </div>
                         </div>
                         <div class="team__description">
@@ -319,7 +336,8 @@
                         <div class="team__block">
                             <img src="./src/images/team_img5.png" alt="">
                             <div class="team__info">
-                                <p><span>John Smith</span> CEO and Founder</p>
+                                <p class="team__name">Brian Williams</p>
+                                <p class="team__post">Social Media Specialist</p>
                             </div>
                         </div>
                         <div class="team__description">
@@ -330,7 +348,8 @@
                         <div class="team__block">
                             <img src="./src/images/team_img6.png" alt="">
                             <div class="team__info">
-                                <p><span>John Smith</span> CEO and Founder</p>
+                                <p class="team__name">Sarah Kim</p>
+                                <p class="team__post">Content Creator</p>
                             </div>
                         </div>
                         <div class="team__description">
@@ -340,20 +359,20 @@
                     </div>
                 </div>
                 <div class="team__button">
-                    <a href="#">See all team</a>
+                    <a class="btn" href="#">See all team</a>
                 </div>
             </div>
         </section>
         <section class="feedback">
             <div class="container">
-                <div class="feedback__title">
-                    <h2>Testimonials</h2>
-                    <p>Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</p>
+                <div class="feedback__text">
+                    <h2 class="main__title">Testimonials</h2>
+                    <p class="feedback__subtitle">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</p>
                 </div>
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="feedback__text">
+                            <div class="feedback__message">
                                 <p>
                                     "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."
                                 </p>
@@ -364,7 +383,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="feedback__text">
+                            <div class="feedback__message">
                                 <p>
                                     "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."
                                 </p>
@@ -375,7 +394,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="feedback__text">
+                            <div class="feedback__message">
                                 <p>
                                     "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."
                                 </p>
@@ -386,7 +405,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="feedback__text">
+                            <div class="feedback__message">
                                 <p>
                                     "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."
                                 </p>
@@ -397,7 +416,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="feedback__text">
+                            <div class="feedback__message">
                                 <p>
                                     "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."
                                 </p>
@@ -416,11 +435,11 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="container">
-                <div class="contact__title">
-                    <h2>Contact Us</h2>
-                    <p>Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
+                <div class="contact__text">
+                    <h2 class="main__title">Contact Us</h2>
+                    <p class="contact__subtitle">Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
                 </div>
                 <div class="contact__block">
                     <form>
@@ -481,6 +500,9 @@
                 </div>
             </div>
         </footer>
+        <div class="up">
+            <a class="" href="#"><img src="./src/images/up.svg" alt=""></a>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
@@ -498,6 +520,8 @@
                 prevEl: ".swiper-button-prev",
             },
         });
+        new WOW().init();
     </script>
+    <script src="js/wow.min.js"></script>
 </body>
 </html>
