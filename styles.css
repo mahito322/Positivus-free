@@ -578,12 +578,10 @@ header {
 .swiper-wrapper {
     padding-top: 84px;
     padding-bottom: 124px;
-    gap: 50px;
 }
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #444;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -592,10 +590,7 @@ header {
     width: 606px;
     background-color: var(--main-color-black);
     flex-direction: column;
-    margin: 0 !important;
-}
-.swiper-slide .swiper-slide-active {
-    width: 606px !important;
+
 }
 .swiper-wrapper {
     background-color: var(--main-color-black);
