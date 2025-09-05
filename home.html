@@ -443,8 +443,8 @@
                 </div>
                 <div class="contact__block">
                     <form>
-                        <div>
-                            <label class="label__radio" >
+                        <div class="contact__radio">
+                            <label class="label__radio">
                                 <input class="input__radio" type="radio" name="quote" checked>Say hi
                             </label>
                             <label class="label__radio">
@@ -467,14 +467,16 @@
             <div class="container">
                 <div class="footer__block">
                     <div class="footer__menu">
-                        <img src="./src/images/white_logo.svg" alt="">
-                        <ul class="footer__list">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Use Cases</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
+                        <div><img src="./src/images/white_logo.svg" alt=""></div>
+                        <nav>
+                            <ul class="footer__list">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Use Cases</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </nav>
                         <div class="footer__socials">
                             <a href="#"><img src="./src/images/social_img.svg" alt=""></a>
                             <a href="#"><img src="./src/images/social_img2.svg" alt=""></a>
@@ -484,9 +486,10 @@
                     <div class="footer__contacts">
                         <div class="footer__contact">
                             <h2>Contact us</h2>
-                            <p class="footer__email">Email: info@positivus.com</p>
-                            <p class="footer__phone">Phone: 555-567-8901</p>
-                            <p class="footer__address">Address: 1234 Main St Moonstone City, Stardust State 12345</p>
+                            <p class="footer__email">Email: <a href="mailto:info@positivus.com">info@positivus.com</a></p>
+                            <p class="footer__phone">Phone: <a href="tel:555-567-8901"> 555-567-8901</a></p>
+                            <p class="footer__address">Address: <a href="https://maps.app.goo.gl/Ep19LrDwYinxwY2e6" target="_blank">1234 Main St
+                                <br> Moonstone City, Stardust State 12345</a></p>
                         </div>
                         <div class="footer__subscribe">
                             <input type="email" placeholder="Email">
@@ -510,7 +513,7 @@
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: "auto",
             centeredSlides: true,
-            spaceBetween: 50,
+            spaceBetween: 53,
             loop: true,
             pagination: {
                 el: ".swiper-pagination",

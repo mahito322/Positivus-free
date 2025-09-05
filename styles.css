@@ -578,6 +578,7 @@ header {
 .swiper-wrapper {
     padding-top: 84px;
     padding-bottom: 124px;
+    background-color: var(--main-color-black);
 }
 .swiper-slide {
     text-align: center;
@@ -592,16 +593,6 @@ header {
     flex-direction: column;
 
 }
-.swiper-wrapper {
-    background-color: var(--main-color-black);
-
-}
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 .feedback__text {
     font-family: 'Space Grotesk',sans-serif;
     display: flex;
@@ -612,7 +603,6 @@ header {
     width: 473px;
     font-size: 18px;
 }
-
 .feedback__message {
     border: 1px solid var(--main-color-green);
     padding: 48px 52px;
@@ -863,11 +853,21 @@ footer{
     font-size: 18px;
     margin-bottom: 20px;
 }
+.footer__email a {
+    color: white;
+    font-family: 'Space Grotesk',sans-serif;
+    font-size: 18px;
+}
 .footer__phone {
     color: white;
     font-family: 'Space Grotesk',sans-serif;
     font-size: 18px;
     margin-bottom: 20px;
+}
+.footer__phone a {
+    color: white;
+    font-family: 'Space Grotesk',sans-serif;
+    font-size: 18px;
 }
 .footer__address {
     color: white;
@@ -875,6 +875,11 @@ footer{
     font-size: 18px;
     margin-bottom: 20px;
     width: 332px;
+}
+.footer__address a {
+    font-size: 18px;
+    font-family: 'Space Grotesk',sans-serif;
+    color: white;
 }
 .footer__subscribe {
     background-color: #292A32;
