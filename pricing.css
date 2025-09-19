@@ -86,69 +86,17 @@ header {
 .header__menu li  {
     list-style: none;
 }
-.header__a5 {
-    position: relative;
-}
-.header__a5:hover::before {
-    display: block;
-    content: '';
-    width: 30px;
-    height: 3px;
-    top: 33px;
-    left: 7px;
-    position: absolute;
-    background-color: var(--main-color-green);
-}
-.header__a4 {
-    position: relative;
-}
-.header__a4:hover::before {
-    display: block;
-    content: '';
-    width: 45px;
-    height: 3px;
-    top: 33px;
-    left: 13px;
-    position: absolute;
-    background-color: var(--main-color-green);
-}
-.header__a3 {
-    position: relative;
-}
-.header__a3:hover::before {
-    display: block;
-    content: '';
-    width: 70px;
-    height: 3px;
-    top: 33px;
-    left: 16px;
-    position: absolute;
-    background-color: var(--main-color-green);
-}
-.header__a2 {
-    position: relative;
-}
-.header__a2:hover::before {
-    display: block;
-    content: '';
-    width: 55px;
-    height: 3px;
-    top: 33px;
-    left: 14px;
-    position: absolute;
-    background-color: var(--main-color-green);
-}
 .header__a {
     position: relative;
     padding: 5px 10px 5px 10px;
 }
-.header__a:hover::before {
+.header__a:not(.active):hover::before {
     display: block;
     content: '';
-    width: 60px;
+    width: 60%;
     height: 3px;
-    top: 33px;
-    left: 14px;
+    bottom: -3px;
+    left: 20%;
     position: absolute;
     background-color: var(--main-color-green);
 }
