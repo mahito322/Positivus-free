@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./adaptive_home/adaptive.css">
 </head>
 <body>
     <header>
@@ -20,10 +22,12 @@
                         <li><a class="header__a" href="./pricing.html">Pricing</a></li>
                         <li><a class="header__a" href="#team">Blog</a></li>
                     </ul>
-                    <div><a class="btn btn__transparent" href="#contact">Request a quote</a></div>
+                    <div class="header__btn"><a class="btn btn__transparent" href="#contact">Request a quote</a></div>
+                    <div class="header__burger-menu"><a href=""><img src="./src/images/burger_menu.svg" alt=""></a></div>
                 </div>
             </div>
             <div class="header__bottom">
+                <h1 class="header__title-adaptive">Navigating the digital landscape for success</h1>
                 <div class="header__text">
                     <h1 class="header__title">Navigating the digital landscape for success</h1>
                     <p class="header__description">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
@@ -64,7 +68,7 @@
                                 <p>Learm more</p>
                             </div>
                         </div>
-                        <div><img src="./src/images/services_img.svg" alt=""></div>
+                        <div class="services__img"><img src="./src/images/services_img.svg" alt=""></div>
                     </a>
                     <a href="#" class="animate__animated wow animate__zoomInLeft services__card">
                         <div class="services__block">
@@ -77,7 +81,7 @@
                                 <p class="services__more">Learm more</p>
                             </div>
                         </div>
-                        <div><img src="./src/images/services_img3.svg" alt=""></div>
+                        <div class="services__img"><img src="./src/images/services_img3.svg" alt=""></div>
                     </a>
                     <a href="#" class="animate__animated wow animate__zoomInLeft services__card">
                         <div class="services__block">
@@ -90,7 +94,7 @@
                                 <p>Learm more</p>
                             </div>
                         </div>
-                        <div><img src="./src/images/services_img5.svg" alt=""></div>
+                        <div class="services__img"><img src="./src/images/services_img5.svg" alt=""></div>
                     </a>
                     <a href="#" class="animate__animated wow animate__zoomInRight services__card">
                         <div class="services__block">
@@ -103,7 +107,7 @@
                                 <p>Learm more</p>
                             </div>
                         </div>
-                        <div><img src="./src/images/services_img2.svg" alt=""></div>
+                        <div class="services__img"><img src="./src/images/services_img2.svg" alt=""></div>
                     </a>
                     <a href="#" class="animate__animated wow animate__zoomInRight services__card">
                         <div class="services__block">
@@ -116,7 +120,7 @@
                                 <p>Learm more</p>
                             </div>
                         </div>
-                        <div><img src="./src/images/services_img4.svg" alt=""></div>
+                        <div class="services__img"><img src="./src/images/services_img4.svg" alt=""></div>
                     </a>
                     <a href="#" class="animate__animated wow animate__zoomInRight services__card">
                         <div class="services__block">
@@ -129,7 +133,7 @@
                                 <p class="services__more">Learm more</p>
                             </div>
                         </div>
-                        <div><img src="./src/images/services_img6.svg" alt=""></div>
+                        <div class="services__img"><img src="./src/images/services_img6.svg" alt=""></div>
                     </a>
                 </div>
             </div>
@@ -173,6 +177,35 @@
                             <p>Learn more</p>
                             <img src="./src/images/arrow_green.svg" alt="">
                         </a>
+                    </div>
+                </div>
+                <div class="swiper Swiper">
+                    <div class="swiper-wrapper swiper-wrapper-adaptive">
+                        <div class="swiper-slide swiper-slide-adaptive">
+                            <p>For a local rest
+                                aurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorem eligendi et ipsum itaque, maiores, modi neque nihil numquam praesentium quam sequi velit voluptatem voluptatibus voluptatum. Consequatur ea libero rem.Aliquid corporis esse est facere harum laborum mollitia, nam saepe sapiente vero! Accusantium ad adipisci aperiam beatae cum delectus dignissimos enim fugit, impedit nemo porro praesentium quaerat quasi reiciendis ullam?</p>
+                            <a href="#">
+                                <p>Learn more</p>
+                                <img src="./src/images/arrow_green.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-adaptive">
+                            <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorem eligendi et ipsum itaque, maiores, modi neque nihil numquam praesentium quam sequi velit voluptatem voluptatibus voluptatum. Consequatur ea libero rem.Aliquid corporis esse est facere harum laborum mollitia, nam saepe sapiente vero! Accusantium ad adipisci aperiam beatae cum delectus dignissimos enim fugit, impedit nemo porro praesentium quaerat quasi reiciendis ullam?</p>
+                            <a href="#">
+                                <p>Learn more</p>
+                                <img src="./src/images/arrow_green.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-adaptive">
+                            <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorem eligendi et ipsum itaque, maiores, modi neque nihil numquam praesentium quam sequi velit voluptatem voluptatibus voluptatum. Consequatur ea libero rem.Aliquid corporis esse est facere harum laborum mollitia, nam saepe sapiente vero! Accusantium ad adipisci aperiam beatae cum delectus dignissimos enim fugit, impedit nemo porro praesentium quaerat quasi reiciendis ullam?</p>
+                            <a href="#">
+                                <p>Learn more</p>
+                                <img src="./src/images/arrow_green.svg" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -280,7 +313,7 @@
         <section class="team" id="team">
             <div class="container">
                 <div class="team__text">
-                    <h2 class="main__title">Team</h2>
+                    <h2 class="main__title team__title">Team</h2>
                     <p class="team__subtitle">Meet the skilled and experienced team behind our successful digital marketing strategies</p>
                 </div>
                 <div class="team__cards">
@@ -345,6 +378,81 @@
                         </div>
                     </div>
                     <div class="team__card animate__animated wow animate__fadeInBottomRight delay-2">
+                        <div class="team__block">
+                            <img src="./src/images/team_img6.png" alt="">
+                            <div class="team__info">
+                                <p class="team__name">Sarah Kim</p>
+                                <p class="team__post">Content Creator</p>
+                            </div>
+                        </div>
+                        <div class="team__description">
+                            <p>2+ years of experience in writing and editing
+                                Skilled in creating compelling, SEO-optimized content for various industries</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team__cards-adaptive">
+                    <div class="team__card">
+                        <div class="team__block">
+                            <img src="./src/images/team_img.png" alt="">
+                            <div class="team__info">
+                                <p class="team__name">John Smith</p>
+                                <p class="team__post">CEO and Founder</p>
+                            </div>
+                        </div>
+                        <div class="team__description">
+                            <p>10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy</p>
+                        </div>
+                    </div>
+                    <div class="team__card">
+                        <div class="team__block">
+                            <img src="./src/images/team_img2.png" alt="">
+                            <div class="team__info">
+                                <p class="team__name">Jane Doe</p>
+                                <p class="team__post">Director of Operations</p>
+                            </div>
+                        </div>
+                        <div class="team__description">
+                            <p>7+ years of experience in project management and team leadership. Strong organizational and communication skills</p>
+                        </div>
+                    </div>
+                    <div class="team__card">
+                        <div class="team__block">
+                            <img src="./src/images/team_img3.png" alt="">
+                            <div class="team__info">
+                                <p class="team__name">Michael Brown</p>
+                                <p class="team__post">Senior SEO Specialist</p>
+                            </div>
+                        </div>
+                        <div class="team__description">
+                            <p>5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization</p>
+                        </div>
+                    </div>
+                    <div class="team__card">
+                        <div class="team__block">
+                            <img src="./src/images/team_img4.png" alt="">
+                            <div class="team__info">
+                                <p class="team__name">Emily Johnson</p>
+                                <p class="team__post">PPC Manager</p>
+                            </div>
+                        </div>
+                        <div class="team__description">
+                            <p>3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis</p>
+                        </div>
+                    </div>
+                    <div class="team__card">
+                        <div class="team__block">
+                            <img src="./src/images/team_img5.png" alt="">
+                            <div class="team__info">
+                                <p class="team__name">Brian Williams</p>
+                                <p class="team__post">Social Media Specialist</p>
+                            </div>
+                        </div>
+                        <div class="team__description">
+                            <p>4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement</p>
+                        </div>
+                    </div>
+                    <div class="team__card">
                         <div class="team__block">
                             <img src="./src/images/team_img6.png" alt="">
                             <div class="team__info">
@@ -467,7 +575,7 @@
             <div class="container">
                 <div class="footer__block">
                     <div class="footer__menu">
-                        <div><img src="./src/images/white_logo.svg" alt=""></div>
+                        <div class="footer__img"><img src="./src/images/white_logo.svg" alt=""></div>
                         <nav>
                             <ul class="footer__list">
                                 <li><a href="#">About Us</a></li>
@@ -495,6 +603,11 @@
                             <input type="email" placeholder="Email">
                             <button type="submit">Subscribe to news</button>
                         </div>
+                        <div class="footer__socials-adaptive">
+                            <a href="#"><img src="./src/images/social_img.svg" alt=""></a>
+                            <a href="#"><img src="./src/images/social_img2.svg" alt=""></a>
+                            <a href="#"><img src="./src/images/social_img3.svg" alt=""></a>
+                        </div>
                     </div>
                     <div class="footer__bottom">
                         <p>© 2023 Positivus. All Rights Reserved.</p>
@@ -511,7 +624,7 @@
     <script src="./wow.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: "auto",
+            slidesPerView: 1,
             centeredSlides: true,
             spaceBetween: 53,
             loop: true,
@@ -523,6 +636,9 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+        });
+        var swiper = new Swiper(".Swiper", {
+            spaceBetween: 30,
         });
         var wow = new WOW(
             {

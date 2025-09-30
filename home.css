@@ -143,7 +143,6 @@ header {
 }
 .header__img  {
     width: 601px;
-    height: 515px;
     flex-shrink: 0;
 }
 .header__img img {
@@ -579,6 +578,7 @@ header {
     padding-top: 84px;
     padding-bottom: 124px;
     background-color: var(--main-color-black);
+    box-sizing: border-box;
 }
 .swiper-slide {
     text-align: center;
@@ -586,7 +586,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 336px;
     border-radius: 45px;
     width: 606px;
     background-color: var(--main-color-black);
@@ -652,7 +651,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 19px;
-
+    position: static;
 }
 .feedback__author {
     font-family: 'Space Grotesk',sans-serif;
@@ -678,12 +677,12 @@ header {
 .swiper-button-next {
     position: absolute;
     bottom: 0;
-    right: 345px;
+    right: 0;
 }
 .swiper-button-prev {
     position: absolute;
     bottom: 0;
-    left: 345px;
+    left: 0;
 }
 .swiper-block {
     display: flex;
@@ -691,11 +690,16 @@ header {
     justify-content: center;
     height: 30px;
     position: relative;
-    margin-bottom: 68px;
+    width: 50%;
+    margin: 0 auto 68px auto;
+}
+.contact .container {
+    overflow: hidden;
 }
 .contact {
     padding-top: 70px;
     padding-bottom: 70px;
+
 }
 .contact__text {
     display: flex;
@@ -938,6 +942,8 @@ footer{
     position: fixed;
     right: 20px;
     bottom: 20px;
+    z-index: 1;
+    border: 1px solid white;
 }
 .delay-1 { animation-delay: 0.2s; }
 .delay-2 { animation-delay: 0.4s; }
@@ -945,3 +951,19 @@ footer{
 .delay-4 { animation-delay: 0.8s; }
 .delay-5 { animation-delay: 1.0s; }
 .delay-6 { animation-delay: 1.2s; }
+
+.header__burger-menu {
+    display: none;
+}
+.header__title-adaptive {
+    display: none;
+}
+.footer__socials-adaptive {
+    display: none;
+}
+.swiper.Swiper {
+    display: none;
+}
+.team__cards-adaptive {
+    display: none;
+}
