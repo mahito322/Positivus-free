@@ -196,11 +196,13 @@ header {
     transition: .3s ease;
     cursor: pointer;
     filter: grayscale(100%);
-
 }
 .companies img:hover {
     transform: scale(1.08);
     filter: grayscale(0%);
+}
+.companies__card a {
+    display: inline-block;
 }
 .services {
     padding-top: 70px;
@@ -581,11 +583,10 @@ header {
     box-sizing: border-box;
 }
 .swiper-slide {
-    text-align: center;
     font-size: 18px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     border-radius: 45px;
     width: 606px;
     background-color: var(--main-color-black);
@@ -613,7 +614,7 @@ header {
     position: absolute;
     width: 40px;
     height: 40px;
-    top: 215px;
+    bottom: -21px;
     left: 60px;
     border-right: 1px solid var(--main-color-green);
     border-bottom: 1px solid var(--main-color-green);
@@ -622,7 +623,6 @@ header {
 
 }
 .feedback__message p {
-    width: 502px;
     font-size: 18px;
     color: white;
     font-family: 'Space Grotesk',sans-serif;
@@ -644,7 +644,7 @@ header {
     margin: 0;
 }
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-    width: 400px;
+    width: 280px;
     left: 420px;
 }
 .swiper-pagination {
@@ -658,7 +658,7 @@ header {
     color: white;
     width: 270px;
     text-align: left;
-    margin: 40px 185px 0 0;
+    margin: 40px 0 0 75px;
 
 }
 .feedback__name {
@@ -776,6 +776,9 @@ button {
     margin-top: 40px;
     font-family: 'Space Grotesk',sans-serif;
     font-size: 20px;
+}
+.label__radio:nth-child(2) {
+    margin-right: 0;
 }
 .label__radio {
     font-family: 'Space Grotesk',sans-serif;

@@ -42,12 +42,12 @@
     <main>
         <section class="companies">
             <div class="container">
-                <div class="delay-6 wow animate__animated animate__bounceInLeft"><a  href="https://www.amazon.com/"><img src="./src/images/Company_logo.svg" alt=""></a></div>
-                <div class="delay-5 wow animate__animated animate__bounceInLeft"><a href="https://dribbble.com/"><img src="./src/images/Company_logo1.svg" alt=""></a></div>
-                <div class="delay-4 wow animate__animated animate__bounceInLeft"><a href="https://www.hubspot.com/"><img src="./src/images/Company_logo2.svg" alt=""></a></div>
-                <div class="delay-3 wow animate__animated animate__bounceInLeft"><a href="https://www.notion.com/"><img src="./src/images/Company_logo3.svg" alt=""></a></div>
-                <div class="delay-2 wow animate__animated animate__bounceInLeft"><a href="https://www.netflix.com/"><img src="./src/images/Company_logo4.svg" alt=""></a></div>
-                <div class="delay-1 wow animate__animated animate__bounceInLeft"><a href="https://www.zoom.com/"><img src="./src/images/Company_logo5.svg" alt=""></a></div>
+                <div class="companies__card delay-6 wow animate__animated animate__bounceInLeft"><a  href="https://www.amazon.com/"><img src="./src/images/Company_logo.svg" alt=""></a></div>
+                <div class="companies__card delay-5 wow animate__animated animate__bounceInLeft"><a href="https://dribbble.com/"><img src="./src/images/Company_logo1.svg" alt=""></a></div>
+                <div class="companies__card delay-4 wow animate__animated animate__bounceInLeft"><a href="https://www.hubspot.com/"><img src="./src/images/Company_logo2.svg" alt=""></a></div>
+                <div class="companies__card delay-3 wow animate__animated animate__bounceInLeft"><a href="https://www.notion.com/"><img src="./src/images/Company_logo3.svg" alt=""></a></div>
+                <div class="companies__card delay-2 wow animate__animated animate__bounceInLeft"><a href="https://www.netflix.com/"><img src="./src/images/Company_logo4.svg" alt=""></a></div>
+                <div class="companies__card delay-1 wow animate__animated animate__bounceInLeft"><a href="https://www.zoom.com/"><img src="./src/images/Company_logo5.svg" alt=""></a></div>
             </div>
         </section>
         <section class="services" id="services">
@@ -601,7 +601,7 @@
                         </div>
                         <div class="footer__subscribe">
                             <input type="email" placeholder="Email">
-                            <button type="submit">Subscribe to news</button>
+                            <button type="submit">Subscribe</button>
                         </div>
                         <div class="footer__socials-adaptive">
                             <a href="#"><img src="./src/images/social_img.svg" alt=""></a>
@@ -624,7 +624,6 @@
     <script src="./wow.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
             centeredSlides: true,
             spaceBetween: 53,
             loop: true,
@@ -637,8 +636,9 @@
                 prevEl: ".swiper-button-prev",
             },
         });
-        var swiper = new Swiper(".Swiper", {
+        var swiper2 = new Swiper(".Swiper", {
             spaceBetween: 30,
+            loop: true
         });
         var wow = new WOW(
             {
@@ -650,6 +650,24 @@
             }
         );
         wow.init();
+
+        let width = window.innerWidth;
+        console.log(width);
+        if (width >= 960) {
+            swiper.params.slidesPerView = 2;
+        } else if (width < 960 && width >= 600) {
+            swiper.params.slidesPerView = 1;
+            console.log(swiper.params.slidesPerView);
+        }
+        window.addEventListener('resize', () => {
+            width = window.innerWidth;
+
+            if (width >= 960) {
+                swiper.params.slidesPerView = 2;
+            } else if (width < 960 && width >= 600) {
+                swiper.params.slidesPerView = 1;
+            }
+        });
     </script>
 
 </body>
