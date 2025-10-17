@@ -50,7 +50,6 @@ html {
     width: 606px;
     background-color: var(--main-color-black);
     flex-direction: column;
-
 }
 .feedback__text {
     font-family: 'Space Grotesk',sans-serif;

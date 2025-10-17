@@ -434,6 +434,7 @@ footer{
     padding: 20px 35px;
     margin: 0;
     border: none;
+    border-radius: 14px;
 }
 .footer__bottom {
     display: flex;
@@ -470,3 +471,23 @@ footer{
 .delay-4 { animation-delay: 0.8s; }
 .delay-5 { animation-delay: 1.0s; }
 .delay-6 { animation-delay: 1.2s; }
+button {
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 14px;
+    background-color: var(--main-color-black);
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+}
+.header__burger-menu {
+    display: none;
+}
+.header__title-adaptive {
+    display: none;
+}
+.footer__socials-adaptive {
+    display: none;
+}

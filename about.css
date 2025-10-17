@@ -171,7 +171,7 @@ header {
 .advantages__feature:before {
     content: '';
     background-color: white;
-    width: 2px;
+    width: 3px;
     height: 101px;
     position: absolute;
     left: -2px;
@@ -179,10 +179,10 @@ header {
 .advantages__feature:after {
     content: '';
     background-color: white;
-    width: 2px;
+    width: 3px;
     height: 101px;
     position: absolute;
-    right: -1px;
+    right: -2px;
     top: 23px;
 }
 .years {
@@ -329,7 +329,6 @@ header {
 }
 .promo__img {
     width: 530px;
-    height: 583px;
     left: -30px;
     top: -70px;
     position: absolute;
@@ -411,14 +410,13 @@ header {
 .banner__description {
     margin-top: 20px;
 }
-.banner__text a {
+.banner__btn {
     margin-top: 25px;
     padding: 20px 35px;
     border-radius: 14px;
 }
 .banner__img {
     width: 330px;
-    height: 325px;
 }
 .banner__img img {
     width: 100%;
@@ -561,4 +559,30 @@ footer{
     position: fixed;
     right: 20px;
     bottom: 20px;
+}
+.header__burger-menu {
+    display: none;
+}
+.header__title-adaptive {
+    display: none;
+}
+.footer__socials-adaptive {
+    display: none;
+}
+.together__title-adaptive {
+    display: none;
+}
+.promo__img-adaptive {
+    display: none;
+}
+button {
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 14px;
+    background-color: var(--main-color-black);
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+    font-family: 'Space Grotesk',sans-serif;
+    font-size: 20px;
 }

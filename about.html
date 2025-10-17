@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
-  <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./adaptive_about/adaptive.css">
 </head>
 <body>
 <header>
@@ -18,7 +20,8 @@
                     <li><a class="header__a" href="./pricing.html">Pricing</a></li>
                     <li><a class="header__a" href="#team">Blog</a></li>
                 </ul>
-                <div><a class="btn btn__transparent" href="#contact">Request a quote</a></div>
+                <div class="header__btn"><a class="btn btn__transparent" href="#contact">Request a quote</a></div>
+                <div class="header__burger-menu"><a href=""><img src="./src/images/burger_menu.svg" alt=""></a></div>
             </div>
         </div>
     </div>
@@ -27,11 +30,12 @@
     <section class="together">
         <div class="container">
             <div class="together__block">
+                <h1 class="together__title-adaptive">Together for Success</h1>
                 <div class="together__img">
                     <img src="./src/images/together_img.png" alt="">
                 </div>
                 <div class="together__text">
-                    <h1>Together for Success</h1>
+                    <h1 class="together__title">Together for Success</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at beatae eaque esse ex exercitationem fugiat incidunt ipsa iusto laudantium quidem sit suscipit</p>
                 </div>
             </div>
@@ -197,6 +201,7 @@
         <div class="container">
             <div class="promo__block">
                 <div class="promo__img"><img src="./src/images/about_promo.png" alt=""></div>
+                <div class="promo__img-adaptive"><img src="./src/images/about_promo2.png" alt=""></div>
                 <div class="promo__text">
                     <p class="promo__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eum illum iste nihil quae! Alias aliquam atque, blanditiis ex, excepturi maiores maxime pariatur placeat qui quo saepe similique velit voluptates!</p>
                     <p class="promo__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, velit.</p>
@@ -240,7 +245,7 @@
                 <div class="banner__text">
                     <h2 class="banner__title">Lorem ipsum dolor sit.</h2>
                     <p class="banner__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at aut doloribus modi molestiae natus officia optio qui? Ad atque eligendi, impedit necessitatibus obcaecati quam. Cumque dolores expedita illo non!Alias aliquid asperiores aspernatur at atque consectetur consequatur</p>
-                    <a class="btn" href="">Lorem ipsum dolor.</a>
+                    <a class="banner__btn btn" href="">Lorem ipsum dolor.</a>
                 </div>
                 <div class="banner__img">
                     <img src="./src/images/banner_img.png" alt="">
@@ -278,7 +283,12 @@
                     </div>
                     <div class="footer__subscribe">
                         <input type="email" placeholder="Email">
-                        <button type="submit">Subscribe to news</button>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                    <div class="footer__socials-adaptive">
+                        <a href="#"><img src="./src/images/social_img.svg" alt=""></a>
+                        <a href="#"><img src="./src/images/social_img2.svg" alt=""></a>
+                        <a href="#"><img src="./src/images/social_img3.svg" alt=""></a>
                     </div>
                 </div>
                 <div class="footer__bottom">
